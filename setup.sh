@@ -7,6 +7,7 @@ package_name="mcsmanager_linux_release.tar.gz"
 node="v20.12.2"
 arch=$(uname -m)
 
+
 if [ "$(id -u)" -ne 0 ]; then
   echo "This script must be run as root. Please use \"sudo bash\" instead."
   exit 1
