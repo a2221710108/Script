@@ -4,7 +4,7 @@
 mcsmanager_install_path="/opt/mcsmanager"
 mcsmanager_download_addr="https://github.com/a2221710108/MCSManager/releases/download/10.8.4-87d/mcsmanager_linux_release.tar.gz"
 package_name="mcsmanager_linux_release.tar.gz"
-node="v20.12.2"
+node="v22.23.4"
 arch=$(uname -m)
 
 
